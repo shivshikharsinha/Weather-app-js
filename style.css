@@ -9,7 +9,8 @@ body{
     background-color: #222;
 }
 .card{
-    width: 90;
+    width: 90%;
+    min-width: none;
     max-width: 470px;
     background: linear-gradient(120deg, #023e8a, #0077b6, #00b4d8);
     color: #fff;
@@ -122,4 +123,17 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+@media screen and (max-width: 450px){
+    .search input {
+        max-width: 80%;
+    }
+    .search button{
+        width: 40px;
+        height: 40px;
+    }
+    .search button i{
+        font-size: 16px;
+    }
 }
