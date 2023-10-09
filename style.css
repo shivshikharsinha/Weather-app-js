@@ -154,8 +154,8 @@ body {
     }
 
     .search button {
-        width: 30px;
-        height: 30px;
+        width: 33px;
+        height: 33px;
     }
 
     .search button i {
@@ -168,5 +168,41 @@ body {
 
     .search {
         width: 95%;
+    }
+    .weather-icon {
+        width: 120px;
+    }
+    .weather h1 {
+        font-size: 50px;
+    }
+    .weather .feelslike{
+        font-size: 16px;
+    }
+    .weather h2 {
+        font-size: 20px;
+    }
+    .details{
+        padding: 0;
+        justify-content: space-between;
+    }
+    #col-1{
+        padding-right: 10px;
+    }
+    .col img{
+        width: 30px;
+    }
+    .humidity, .wind {
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .weather-ex {
+        justify-content: space-between;
+        padding: 0;
+    }
+    .weather-ex h3{
+        font-size: 14px;
+        
     }
 }
